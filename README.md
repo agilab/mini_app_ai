@@ -1,12 +1,12 @@
 # 深度识图
 
-深度识图是基于[gotalk](https://github.com/agilab/gotalk)作为后端识别引擎的前端小程序
+深度识图是基于[gotalk](https://github.com/agilab/gotalk)作为后端识别引擎的前端小程序
 
 能识别大部分人物场景, 也可以直接从头像识别
 
 # Demo
 
-![](./example/demo.jpeg)
+![](./example/demo.jpeg|width=300)
 
 # 在线体验
 
