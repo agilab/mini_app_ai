@@ -4,7 +4,7 @@
 
 ![](./example/model.jpg)
 
-这个小程序能识别大部分人物场景，也可以直接从头像识别头像内容。作为一个使用小程序和 AI 互动的例子，欢迎大家学习研究。
+这个小程序能识别大部分人物场景，也可以直接从头像识别头像内容。
 
 ## Demo
 
@@ -20,7 +20,7 @@
 
 **后端**
 
-[gotalk](https://github.com/agilab/gotalk)提供了后端的基本接口，以及图片识别算法。
+[gotalk](https://github.com/agilab/gotalk) 提供了后端的基本接口，以及图片识别算法。
 
 此外还需要一个 [服务接口](https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html) 处理小程序的图片上传并返回图片地址，请开发者自行解决。
 
@@ -43,6 +43,6 @@ export default {
 
 ## 其他
 
-目前不支持除 jpg 格式以外的图片, 有条件可用 oss 带参数链接自行解决。
+目前不支持除 jpg 格式以外的图片, 有条件可用 OSS 带参数链接自行解决。
 
 更多问题欢迎加入我们的 QQ 群 850275221。
