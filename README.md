@@ -26,7 +26,7 @@
 
     首先在 **project.config.json** 添加自己的 appid
 
-    在 **config.js** 中添加自己的后端服务地址地址
+    在 **config.js** 中添加自己的后端服务地址
 ```js
 
 export default {
@@ -35,7 +35,8 @@ export default {
 }
 
 ```
-    之后用微信开发者工具打开，快速使用。
+
+之后用微信开发者工具打开，快速使用。
 
 ## 其他
 
