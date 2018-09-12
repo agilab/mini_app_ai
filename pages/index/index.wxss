@@ -1,0 +1,68 @@
+.card {
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+.container {
+  margin: auto;
+  width: 710rpx;
+}
+.upload {
+  margin-top: 20rpx;
+}
+.inner-wrap {
+  background: #FFFFFF;
+  border: 2rpx dashed #C2C4CA;
+  border-radius: 6rpx;
+  height: 550rpx;
+  text-align: center;
+}
+.uplaod-btn {
+  margin-top: 30rpx;
+  background: #FF7F71;
+  border: 1px solid rgba(5,5,5,0.08);
+  border-radius: 10rpx;
+  color: white
+}
+.btn {
+  margin-top: 30rpx;
+  font-size: 34rpx;
+  color: #333333;
+}
+.concat-btn {
+  padding: 0;
+  font-size: 26rpx;
+  color: #576B95;
+  display: inline-block;
+}
+.concat-btn::after{ border: none; } 
+.inner-wrap image {
+  margin-top: 140rpx;
+  width: 220rpx;
+}
+.picture {
+  margin-top: 20rpx;
+}
+.picture .origin-pic {
+  width: 100%;
+  height: 500rpx;
+}
+.picture .quotes {
+  width: 40rpx;
+  margin-right: 20rpx;
+}
+.picture .reson {
+  margin-top: 12rpx;
+}
+.picture .reson-text {
+  font-size: 34rpx;
+  color: #4A4A4A;
+}
+.footer {
+  font-size: 24rpx;
+  color: #999999;
+  position: absolute;
+  bottom: 12rpx;
+  left: 0; right: 0;
+  text-align: center;
+}

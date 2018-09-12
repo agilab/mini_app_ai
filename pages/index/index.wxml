@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card {{ !!url ? 'picture' : 'upload' }}">
+    <view wx:if="{{ !url }}"  class="inner-wrap">
+      <image mode="widthFix" src="/img/upload.jpg" />
+    </view>
+    <view wx:else>
+      <image class="origin-pic" mode="aspectFit" src="{{ url }}"/>
+      <view class="reson">
+        <image class="quotes" mode="widthFix" src="/img/quote.png"></image>
+        <text class="reson-text">{{ detail }}</text>
+      </view>
+    </view>
+  </view>
+  <button class="uplaod-btn" bindtap="onUploadPic">上传图片</button>
+  <button class="btn" open-type="getUserInfo" bindgetuserinfo="onUploadAvatar">识别我的头像</button>
+  <button class="btn" open-type="share">分享结果给好友</button>
+  <view class="footer">
+    <view>
+      <button class="concat-btn" open-type="contact">联系开发者</button>
+    </view>
+    <text>杭州深知科技 数据智能部</text>
+  </view>
+</view>
