@@ -16,17 +16,18 @@
 
 ## 快速上手
 
-1. 后端
+**后端**
 
-    [gotalk](https://github.com/agilab/gotalk)提供了后端的基本接口，以及图片识别算法。
+[gotalk](https://github.com/agilab/gotalk)提供了后端的基本接口，以及图片识别算法。
 
-    此外还需要一个 [服务接口](https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html) 处理小程序的图片上传并返回图片地址，请开发者自行解决。
+此外还需要一个 [服务接口](https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html) 处理小程序的图片上传并返回图片地址，请开发者自行解决。
 
-2. 前端
+**前端**
 
-    首先在 **project.config.json** 添加自己的 appid
+首先在 **project.config.json** 添加自己的 appid
 
-    在 **config.js** 中添加自己的后端服务地址
+在 **config.js** 中添加自己的后端服务地址
+
 ```js
 
 export default {
